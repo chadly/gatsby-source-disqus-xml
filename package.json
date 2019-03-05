@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-disqus-xml",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Gatsby source plugin to use a disqus XML export as a data source",
   "keywords": [
     "gatsby",

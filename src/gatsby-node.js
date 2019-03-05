@@ -46,6 +46,7 @@ function loadCommentDataFromXml(xml) {
 			link: select("string(d:link)", node),
 			comments: select(`/d:disqus/d:post[d:thread/@dsq:id='${dqId}']`, doc).map(
 				cnode => ({
+					id: select("string(d:id)", cnode),
 					author: {
 						name: select("string(d:author/d:name)", cnode),
 						username: select("string(d:author/d:username)", cnode)
