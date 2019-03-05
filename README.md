@@ -46,6 +46,7 @@ You can query for **all** threads:
         link
         comments {
           id
+          parentId
           author {
             name
             username
@@ -69,6 +70,7 @@ or for a specific thread:
       link
       comments {
         id
+        parentId
         author {
           name
           username
